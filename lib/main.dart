@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      routes: {'/': (_) => Telalogin(), 'telainicial': (_) => Telainicial()},
       initialRoute: '/',
+      routes: {'/': (_) => Telalogin(), 'telainicial': (_) => Telainicial()},
     );
   }
 }
